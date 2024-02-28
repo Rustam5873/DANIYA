@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.wrap{
+    max-width: 1080px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+   justify-content: space-between; 
+   padding: 30px 15px;
+   box-sizing: border-box;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+.logo{
+    margin-right: 100%;
+    width: 150px;
+    height: 150px;
+}
+.menu{
+    font-weight: 700;
+    display: flex;
+    list-style: none;
+
+}
+.menu li{
+    margin-left: 90px;
+
+}
+
+.menu li a{
+    color: rgb(49, 48, 48);
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(211, 162, 88);
+}
+.basic_class{
+    background: url(../image/phon.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 75px 0 145px 0;
+}
+.basic{
+    color: #000000;
+    text-align: center;
+}
+.basic_txt{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+.basic_title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+.basic_subtitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 60px;
+}
+.base{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+        border: 1px solid #1b1a1a;
+        box-sizing: border-box;
+        border-radius: 30px;
+        padding: 16px 60px;
+        display: inline-block;
+}
