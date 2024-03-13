@@ -94,7 +94,6 @@ body{
 
 }
 .footer{
-    background-color: #ffffff25;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,8 +103,51 @@ body{
 }
 .footer_wrap{
     padding: 0;
+    background-color: #7773731a;
 }
 .logofuture{
     width: 120px;
     height: 120px;
+}
+
+
+.card{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+}
+.img_card{
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card_bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.txt_card{
+text-align: center;
+}
+
+.container_price{
+    font-family: "Open Sans", sans-serif;
+    flex-direction: column;
+    display: flex;
+}
+.card_price{
+    font-size:16px;
+    text-decoration: line-through;
+
+}
+.card_price2{
+    color: rgb(207, 42, 42);
+}
+.battom {
+    font-family: "Open Sans", sans-serif;
+    justify-content: space-between;
+    color: rgb(21, 94, 21);
 }
